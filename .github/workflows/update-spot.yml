@@ -1,0 +1,51 @@
+name: Update silver spot
+
+on:
+  schedule:
+    # Mon–Fri, three times (13:00, 17:00, 21:00 UTC)
+    - cron: "0 13,17,21 * * 1-5"
+    # Sat–Sun, once (16:00 UTC)
+    - cron: "0 16 * * 0,6"
+  workflow_dispatch:
+
+jobs:
+  spot:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch XAG and write data/spot.json
+        run: |
+          python3 - << 'PY'
+          import json, urllib.request
+          from datetime import datetime, timezone
+
+          url = "https://api.gold-api.com/price/XAG"
+          with urllib.request.urlopen(url, timeout=20) as r:
+              d = json.load(r)
+
+          price = round(float(d["price"]), 2)
+          if price < 10 or price > 200:
+              raise SystemExit(f"spot out of range: {price}")
+
+          out = {
+            "silver": price,
+            "as_of": d.get("updatedAt") or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "source": "gold-api.com XAG USD delayed",
+            "note": "Indicative delayed silver spot. Not COMEX. Not a dealer quote."
+          }
+          with open("data/spot.json", "w") as f:
+              json.dump(out, f, indent=2)
+              f.write("\n")
+          print(out)
+          PY
+
+      - name: Commit if changed
+        run: |
+          git config user.name "troydesk-bot"
+          git config user.email "hello@troydesk.com"
+          git add data/spot.json
+          git diff --staged --quiet || git commit -m "spot: update silver"
+          git push
