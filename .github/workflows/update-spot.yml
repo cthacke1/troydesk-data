@@ -47,5 +47,10 @@ jobs:
           git config user.name "troydesk-bot"
           git config user.email "hello@troydesk.com"
           git add data/spot.json
-          git diff --staged --quiet || git commit -m "spot: update silver"
+          if git diff --staged --quiet; then
+            echo "spot unchanged"
+            exit 0
+          fi
+          git commit -m "spot: update silver"
+          git pull --rebase origin main
           git push
