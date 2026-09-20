@@ -3,120 +3,120 @@
     "ase": {
       "dealers": {
         "jm": {
-          "premium_usd": 16.58,
+          "premium_usd": 16.79,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://www.jmbullion.com/american-silver-eagle-varied-year/"
+          "url": "https://www.jmbullion.com/american-silver-eagle-varied-year/",
+          "verified_at": "2026-09-16T16:44:00Z"
         },
         "sd": {
-          "premium_usd": 8.48,
+          "premium_usd": 8.7,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://sdbullion.com/1-oz-american-silver-eagle-coins-random-year"
+          "url": "https://sdbullion.com/1-oz-american-silver-eagle-coins-random-year",
+          "verified_at": "2026-09-17T20:31:00Z"
         },
         "apmex": {
-          "premium_usd": 7.65,
+          "premium_usd": 16.84,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://www.apmex.com/product/23331/1-oz-american-silver-eagle-coin-bu-random-year"
+          "url": "https://www.apmex.com/product/23331/1-oz-american-silver-eagle-coin-bu-random-year",
+          "verified_at": "2026-09-17T20:31:00Z"
         },
         "money_metals": {
-          "premium_usd": 11.53,
+          "premium_usd": 10.99,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://www.moneymetals.com/1-oz-american-silver-eagle-random-year/262"
+          "url": "https://www.moneymetals.com/1-oz-american-silver-eagle-random-year/262",
+          "verified_at": "2026-09-17T20:31:00Z"
         },
         "monument": {
-          "premium_usd": 5.64,
+          "premium_usd": 2.99,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://monumentmetals.com/1-oz-american-silver-eagle-bu-dates-our-choice.html"
+          "url": "https://monumentmetals.com/1-oz-american-silver-eagle-bu-dates-our-choice.html",
+          "verified_at": "2026-09-17T20:31:00Z"
         },
         "bgasc": {
-          "premium_usd": 14.18,
+          "premium_usd": 14.4,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://www.bgasc.com/product/1-oz-american-silver-eagle-coins-random-year"
+          "url": "https://www.bgasc.com/product/1-oz-american-silver-eagle-coins-random-year",
+          "verified_at": "2026-09-17T20:31:00Z"
         }
       }
     },
     "silver_maple": {
       "dealers": {
         "jm": {
-          "premium_usd": 11.48,
+          "premium_usd": 11.74,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://www.jmbullion.com/canadian-silver-maple-leaf-varied-year/"
+          "url": "https://www.jmbullion.com/canadian-silver-maple-leaf-varied-year/",
+          "verified_at": "2026-09-17T20:31:00Z"
         },
         "sd": {
-          "premium_usd": 6.48,
+          "premium_usd": 6.75,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://sdbullion.com/canadian-silver-maple-leaf-coin-random-year"
+          "url": "https://sdbullion.com/canadian-silver-maple-leaf-coin-random-year",
+          "verified_at": "2026-09-17T20:31:00Z"
         },
         "apmex": {
-          "premium_usd": 11.65,
+          "premium_usd": 5.88,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://www.apmex.com/product/1090/1-oz-canadian-silver-maple-leaf-coin-bu-random-year"
+          "url": "https://www.apmex.com/product/1090/1-oz-canadian-silver-maple-leaf-coin-bu-random-year",
+          "verified_at": "2026-09-17T20:31:00Z"
         },
         "money_metals": {
-          "premium_usd": 10.43,
+          "premium_usd": 9.89,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://www.moneymetals.com/canadian-maple-leaf-king-charles-iii-1-troy-oz-silver-9999-pure/1018"
+          "url": "https://www.moneymetals.com/canadian-maple-leaf-king-charles-iii-1-troy-oz-silver-9999-pure/1018",
+          "verified_at": "2026-09-17T20:31:00Z"
         },
         "monument": {
-          "premium_usd": 2.00,
+          "premium_usd": 3.86,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://monumentmetals.com/random-date-silver-maple-leaf.html"
+          "url": "https://monumentmetals.com/random-date-silver-maple-leaf.html",
+          "verified_at": "2026-09-17T20:31:00Z"
         },
         "bgasc": {
-          "premium_usd": 8.98,
+          "premium_usd": 9.25,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://www.bgasc.com/product/1-oz-canadian-silver-maple-leaf-coin-random-year"
+          "url": "https://www.bgasc.com/product/1-oz-canadian-silver-maple-leaf-coin-random-year",
+          "verified_at": "2026-09-17T20:31:00Z"
         }
       }
     },
     "oz1_bar": {
       "dealers": {
         "jm": {
-          "premium_usd": 10.48,
+          "premium_usd": 10.7,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://www.jmbullion.com/1-oz-silver-bar/"
+          "url": "https://www.jmbullion.com/1-oz-silver-bar/",
+          "verified_at": "2026-09-17T20:31:00Z"
         },
         "sd": {
-          "premium_usd": 5.48,
+          "premium_usd": 5.71,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://sdbullion.com/generic-1-oz-silver-bar-999-fine-silver"
+          "url": "https://sdbullion.com/generic-1-oz-silver-bar-999-fine-silver",
+          "verified_at": "2026-09-17T20:31:00Z"
         },
         "apmex": {
-          "premium_usd": 11.65,
+          "premium_usd": 11.85,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://www.apmex.com/product/27086/1-oz-silver-bar-apmex"
+          "url": "https://www.apmex.com/product/27086/1-oz-silver-bar-apmex",
+          "verified_at": "2026-09-17T20:31:00Z"
         },
         "money_metals": {
-          "premium_usd": 6.73,
+          "premium_usd": 6.19,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://www.moneymetals.com/1-oz-generic-silver-bar/153"
+          "url": "https://www.moneymetals.com/1-oz-generic-silver-bar/153",
+          "verified_at": "2026-09-17T20:31:00Z"
         },
         "monument": {
-          "premium_usd": 0.50,
+          "premium_usd": 2.39,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://monumentmetals.com/secondary-market-1-oz-silver-bar-999-fine.html"
+          "url": "https://monumentmetals.com/secondary-market-1-oz-silver-bar-999-fine.html",
+          "verified_at": "2026-09-17T20:31:00Z"
         },
         "bgasc": {
-          "premium_usd": 8.98,
+          "premium_usd": 9.21,
           "availability": "in_stock",
-          "verified_at": "2026-09-20T09:57:18Z",
-          "url": "https://www.bgasc.com/product/1-oz-silver-bars-secondary-market-random-assorted"
+          "url": "https://www.bgasc.com/product/1-oz-silver-bars-secondary-market-random-assorted",
+          "verified_at": "2026-09-17T20:31:00Z"
         }
       }
     }
