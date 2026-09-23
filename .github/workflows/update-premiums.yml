@@ -48,10 +48,10 @@ jobs:
               if raw == "":
                   prem = None
               else:
-              prem = round(float(raw), 2)
-              if sku == "gold_eagle":
-                  if prem < -50 or prem > 500:
-                      raise SystemExit(f"line {i}: gold premium out of range {prem}")
+                prem = round(float(raw), 2)
+                  if sku == "gold_eagle":
+                      if prem < -50 or prem > 500:
+                          raise SystemExit(f"line {i}: gold premium out of range {prem}")
               else:
                   if prem < -5 or prem > 80:
                       raise SystemExit(f"line {i}: premium out of range {prem}")
