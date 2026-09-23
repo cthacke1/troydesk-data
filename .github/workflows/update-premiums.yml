@@ -1,3 +1,23 @@
+name: Update premiums JSON
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - "data/premiums.csv"
+      - ".github/workflows/update-premiums.yml"
+
+jobs:
+  premiums:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Build premiums.json from CSV
         run: |
           python3 - << 'PY'
@@ -20,9 +40,9 @@
               sku = (row.get("sku") or "").strip()
               dealer = (row.get("dealer") or "").strip()
               if sku not in allowed_sku:
-                  raise SystemExit(f"line {i}: bad sku {sku!r}")
+                  raise SystemExit("bad sku on line %s: %r" % (i, sku))
               if dealer not in allowed_dealer:
-                  raise SystemExit(f"line {i}: bad dealer {dealer!r}")
+                  raise SystemExit("bad dealer on line %s: %r" % (i, dealer))
 
               raw = (row.get("premium_usd") or "").strip()
               if raw == "":
@@ -34,17 +54,17 @@
                   else:
                       lo, hi = -5, 80
                   if prem < lo or prem > hi:
-                      raise SystemExit(f"line {i}: premium out of range {prem}")
+                      raise SystemExit("premium out of range on line %s: %s" % (i, prem))
 
               avail = (row.get("availability") or "in_stock").strip()
               if avail not in allowed_avail:
-                  raise SystemExit(f"line {i}: bad availability {avail!r}")
+                  raise SystemExit("bad availability on line %s: %r" % (i, avail))
               if prem is None and avail == "in_stock":
                   avail = "out_of_stock"
 
               url = (row.get("url") or "").strip()
               if not url.startswith("http"):
-                  raise SystemExit(f"line {i}: bad url")
+                  raise SystemExit("bad url on line %s" % i)
 
               verified = (row.get("verified_at") or "").strip() or None
 
@@ -56,9 +76,45 @@
               }
 
           order = ("ase", "silver_maple", "oz1_bar", "gold_eagle")
-          out = {"skus": {k: skus[k] for k in order if k in skus}}
+          out = {"skus": dict((k, skus[k]) for k in order if k in skus)}
           with open("data/premiums.json", "w", encoding="utf-8") as f:
               json.dump(out, f, indent=2)
               f.write("\n")
           print("skus", list(out["skus"]))
+          PY
+
+      - name: Commit premiums.json via API
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          python3 - << 'PY'
+          import base64, json, os, urllib.request
+
+          token = os.environ["GITHUB_TOKEN"]
+          repo = os.environ["GITHUB_REPOSITORY"]
+          path = "data/premiums.json"
+          api = "https://api.github.com/repos/%s/contents/%s" % (repo, path)
+
+          def req(method, url, data=None):
+              r = urllib.request.Request(url, data=data, method=method)
+              r.add_header("Authorization", "Bearer %s" % token)
+              r.add_header("Accept", "application/vnd.github+json")
+              r.add_header("X-GitHub-Api-Version", "2022-11-28")
+              if data is not None:
+                  r.add_header("Content-Type", "application/json")
+              with urllib.request.urlopen(r) as resp:
+                  return json.load(resp)
+
+          current = req("GET", api + "?ref=main")
+          with open("data/premiums.json", encoding="utf-8") as f:
+              body = f.read()
+          payload = json.dumps({
+              "message": "premiums: rebuild from csv",
+              "content": base64.b64encode(body.encode()).decode(),
+              "sha": current["sha"],
+              "branch": "main",
+          }).encode()
+          req("PUT", api, payload)
+          print("updated", path)
           PY
