@@ -1,4 +1,4 @@
-name: Update silver spot
+name: Update silver and gold spot
 
 on:
   schedule:
@@ -17,25 +17,37 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Fetch XAG and write data/spot.json
+      - name: Fetch XAG + XAU and write data/spot.json
         run: |
           python3 - << 'PY'
           import json, urllib.request
           from datetime import datetime, timezone
 
-          url = "https://api.gold-api.com/price/XAG"
-          with urllib.request.urlopen(url, timeout=20) as r:
-              d = json.load(r)
+          def fetch(symbol):
+              url = f"https://api.gold-api.com/price/{symbol}"
+              with urllib.request.urlopen(url, timeout=20) as r:
+                  return json.load(r)
 
-          price = round(float(d["price"]), 2)
-          if price < 10 or price > 200:
-              raise SystemExit(f"spot out of range: {price}")
+          xag = fetch("XAG")
+          xau = fetch("XAU")
 
+          silver = round(float(xag["price"]), 2)
+          gold = round(float(xau["price"]), 2)
+
+          if silver < 10 or silver > 200:
+              raise SystemExit(f"silver out of range: {silver}")
+          if gold < 1000 or gold > 10000:
+              raise SystemExit(f"gold out of range: {gold}")
+
+          now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
           out = {
-            "silver": price,
-            "as_of": d.get("updatedAt") or datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "silver": silver,
+            "as_of": xag.get("updatedAt") or now,
             "source": "gold-api.com XAG USD delayed",
-            "note": "Indicative delayed silver spot. Not COMEX. Not a dealer quote."
+            "note": "Indicative delayed spot. Not COMEX. Not a dealer quote.",
+            "gold": gold,
+            "gold_as_of": xau.get("updatedAt") or now,
+            "gold_source": "gold-api.com XAU USD delayed",
           }
           with open("data/spot.json", "w") as f:
               json.dump(out, f, indent=2)
@@ -45,7 +57,7 @@ jobs:
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "spot: update silver"
+          commit_message: "spot: update silver and gold"
           file_pattern: data/spot.json
           commit_user_name: troydesk-bot
           commit_user_email: hello@troydesk.com
