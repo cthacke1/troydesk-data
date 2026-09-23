@@ -119,6 +119,46 @@
           "verified_at": "2026-09-22T16:55:00Z"
         }
       }
+    },
+        "gold_eagle": {
+      "dealers": {
+        "jm": {
+          "premium_usd": null,
+          "availability": "in_stock",
+          "url": "https://www.jmbullion.com/1-oz-american-gold-eagle/",
+          "verified_at": null
+        },
+        "sd": {
+          "premium_usd": null,
+          "availability": "in_stock",
+          "url": "https://sdbullion.com/1-oz-american-gold-eagle-coin-random-year-bu",
+          "verified_at": null
+        },
+        "apmex": {
+          "premium_usd": null,
+          "availability": "in_stock",
+          "url": "https://www.apmex.com/product/1/1-oz-american-gold-eagle-coin-bu-random-year",
+          "verified_at": null
+        },
+        "money_metals": {
+          "premium_usd": null,
+          "availability": "in_stock",
+          "url": "https://www.moneymetals.com/1-oz-gold-american-eagle-coin-type-2-dates-our-choice",
+          "verified_at": null
+        },
+        "monument": {
+          "premium_usd": null,
+          "availability": "in_stock",
+          "url": "https://monumentmetals.com/2026-american-1-oz-gold-eagle-bu.html",
+          "verified_at": null
+        },
+        "bgasc": {
+          "premium_usd": null,
+          "availability": "in_stock",
+          "url": "https://www.bgasc.com/product/1-oz-american-gold-eagle-coin-random-year",
+          "verified_at": null
+        }
+      }
     }
   }
 }
