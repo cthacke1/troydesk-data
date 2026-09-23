@@ -24,7 +24,7 @@ jobs:
           import csv, json
           from collections import defaultdict
 
-          allowed_sku = {"ase", "silver_maple", "oz1_bar"}
+          allowed_sku = {"ase", "silver_maple", "oz1_bar", "gold_eagle"}
           allowed_dealer = {"jm", "sd", "apmex", "money_metals", "monument", "bgasc"}
           allowed_avail = {"in_stock", "out_of_stock", "preorder"}
 
@@ -48,9 +48,13 @@ jobs:
               if raw == "":
                   prem = None
               else:
-                  prem = round(float(raw), 2)
-                  if prem < -5 or prem > 80:
+              prem = round(float(raw), 2)
+              if sku == "gold_eagle":
+                  if prem < -50 or prem > 500:
                       raise SystemExit(f"line {i}: premium out of range {prem}")
+              else:
+                  if prem < -5 or prem > 80:
+                      raise SystemExit(f"line {i}: premium out of range {prem}") {prem}")
 
               avail = (row.get("availability") or "in_stock").strip()
               if avail not in allowed_avail:
@@ -71,7 +75,7 @@ jobs:
                   "verified_at": verified,
               }
 
-          out = {"skus": {k: skus[k] for k in ("ase", "silver_maple", "oz1_bar") if k in skus}}
+          out = {"skus": {k: skus[k] for k in ("ase", "silver_maple", "oz1_bar", "gold_eagle") if k in skus}}
           with open("data/premiums.json", "w", encoding="utf-8") as f:
               json.dump(out, f, indent=2)
               f.write("\n")
