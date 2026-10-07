@@ -49,8 +49,10 @@ jobs:
                   prem = None
               else:
                   prem = round(float(raw), 2)
-                  if sku == "gold_eagle":
+                  if sku == "gold_eagle", "gold_eagle_tenth":
                       lo, hi = -50, 500
+                  elif sku == "oz10_bar":
+                      lo, hi = -50, 400
                   else:
                       lo, hi = -5, 80
                   if prem < lo or prem > hi:
@@ -75,7 +77,7 @@ jobs:
                   "verified_at": verified,
               }
 
-          order = ("ase", "silver_maple", "oz1_bar", "gold_eagle")
+          order = ("ase", "silver_maple", "oz1_bar", "gold_eagle", "gold_eagle_tenth", "oz10_bar")
           out = {"skus": dict((k, skus[k]) for k in order if k in skus)}
           with open("data/premiums.json", "w", encoding="utf-8") as f:
               json.dump(out, f, indent=2)
