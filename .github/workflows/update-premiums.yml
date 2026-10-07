@@ -24,7 +24,7 @@ jobs:
           import csv, json
           from collections import defaultdict
 
-          allowed_sku = {"ase", "silver_maple", "oz1_bar", "gold_eagle"}
+          allowed_sku = {"ase", "silver_maple", "oz1_bar", "gold_eagle", "gold_eagle_tenth", "oz10_bar"}
           allowed_dealer = {"jm", "sd", "apmex", "money_metals", "monument", "bgasc"}
           allowed_avail = {"in_stock", "out_of_stock", "preorder"}
 
