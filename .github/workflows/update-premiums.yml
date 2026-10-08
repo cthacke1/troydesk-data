@@ -49,7 +49,7 @@ jobs:
                   prem = None
               else:
                   prem = round(float(raw), 2)
-                  if sku == "gold_eagle", "gold_eagle_tenth":
+                  if sku in ("gold_eagle", "gold_eagle_tenth"):
                       lo, hi = -50, 500
                   elif sku == "oz10_bar":
                       lo, hi = -50, 400
