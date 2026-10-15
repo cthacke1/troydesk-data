@@ -1,9 +1,9 @@
 {
-  "silver": 57.2,
-  "as_of": "2026-10-15T17:20:45Z",
+  "silver": 57.55,
+  "as_of": "2026-10-15T21:19:45Z",
   "source": "gold-api.com XAG USD delayed",
   "note": "Indicative delayed spot. Not COMEX. Not a dealer quote.",
-  "gold": 4152.7,
-  "gold_as_of": "2026-10-15T17:20:46Z",
+  "gold": 4171.8,
+  "gold_as_of": "2026-10-15T21:19:46Z",
   "gold_source": "gold-api.com XAU USD delayed"
 }
