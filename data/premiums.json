@@ -160,6 +160,46 @@
         }
       }
     },
+    "gold_buffalo": {
+      "dealers": {
+        "jm": {
+          "premium_usd": 325.19,
+          "availability": "in_stock",
+          "url": "https://www.jmbullion.com/1-oz-american-gold-buffalo-vy/",
+          "verified_at": "2026-10-19T12:45:00Z"
+        },
+        "sd": {
+          "premium_usd": 241.06,
+          "availability": "in_stock",
+          "url": "https://sdbullion.com/1-oz-american-gold-buffalo-coin-random-year",
+          "verified_at": "2026-10-19T12:46:27Z"
+        },
+        "apmex": {
+          "premium_usd": 334.09,
+          "availability": "in_stock",
+          "url": "https://www.apmex.com/product/39598/1-oz-gold-buffalo-bu-random-year",
+          "verified_at": "2026-10-19T12:46:27Z"
+        },
+        "money_metals": {
+          "premium_usd": 250.9,
+          "availability": "in_stock",
+          "url": "https://www.moneymetals.com/american-buffalo-gold-coin/18",
+          "verified_at": "2026-10-19T12:46:31Z"
+        },
+        "monument": {
+          "premium_usd": 187.87,
+          "availability": "in_stock",
+          "url": "https://monumentmetals.com/random-date-1oz-gold-buffalo.html",
+          "verified_at": "2026-10-19T12:46:27Z"
+        },
+        "bgasc": {
+          "premium_usd": 278.2,
+          "availability": "in_stock",
+          "url": "https://www.bgasc.com/product/1-oz-american-gold-buffalo-coin-random-year",
+          "verified_at": "2026-10-19T12:45:00Z"
+        }
+      }
+    },
     "gold_eagle_tenth": {
       "dealers": {
         "jm": {
