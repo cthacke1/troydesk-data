@@ -3,364 +3,364 @@
     "ase": {
       "dealers": {
         "jm": {
-          "premium_usd": 16.61,
+          "premium_usd": 16.58,
           "availability": "in_stock",
           "url": "https://www.jmbullion.com/american-silver-eagle-varied-year/",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "sd": {
-          "premium_usd": 5.54,
+          "premium_usd": 5.13,
           "availability": "in_stock",
           "url": "https://www.awin1.com/cread.php?awinmid=78598&awinaffid=3101466&ued=https%3A%2F%2Fsdbullion.com%2F1-oz-american-silver-eagle-coins-random-year",
-          "verified_at": "2026-10-28T00:34:45Z"
+          "verified_at": "2026-10-28T13:05:19Z"
         },
         "apmex": {
-          "premium_usd": 16.69,
+          "premium_usd": 16.65,
           "availability": "in_stock",
           "url": "https://www.apmex.com/product/23331/1-oz-american-silver-eagle-coin-bu-random-year",
-          "verified_at": "2026-10-28T00:34:46Z"
+          "verified_at": "2026-10-28T13:05:20Z"
         },
         "money_metals": {
           "premium_usd": 6.47,
           "availability": "in_stock",
           "url": "https://www.awin1.com/cread.php?awinmid=88985&awinaffid=3101466&clickref=ase&ued=https%3A%2F%2Fwww.moneymetals.com%2F1-oz-american-silver-eagle-random-year%2F262",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "monument": {
-          "premium_usd": 6.24,
+          "premium_usd": 6.28,
           "availability": "in_stock",
           "url": "https://monumentmetals.com/1-oz-american-silver-eagle-bu-dates-our-choice.html",
-          "verified_at": "2026-10-28T00:34:50Z"
+          "verified_at": "2026-10-28T13:05:24Z"
         },
         "bgasc": {
-          "premium_usd": 14.21,
+          "premium_usd": 14.18,
           "availability": "in_stock",
           "url": "https://www.bgasc.com/product/1-oz-american-silver-eagle-coins-random-year",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "hero": {
-          "premium_usd": 7.25,
+          "premium_usd": 6.93,
           "availability": "in_stock",
           "url": "https://www.herobullion.com/american-silver-eagle-1-oz-coin/",
-          "verified_at": "2026-10-28T00:34:51Z"
+          "verified_at": "2026-10-28T13:05:25Z"
         },
         "bullionexchanges": {
           "premium_usd": null,
           "availability": "out_of_stock",
           "url": "https://bullionexchanges.com/1-oz-silver-american-eagle-bu-random-year",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         }
       }
     },
     "silver_maple": {
       "dealers": {
         "jm": {
-          "premium_usd": 11.52,
+          "premium_usd": 11.48,
           "availability": "in_stock",
           "url": "https://www.jmbullion.com/canadian-silver-maple-leaf-varied-year/",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "sd": {
-          "premium_usd": 6.54,
+          "premium_usd": 6.13,
           "availability": "in_stock",
           "url": "https://www.awin1.com/cread.php?awinmid=78598&awinaffid=3101466&ued=https%3A%2F%2Fsdbullion.com%2Fcanadian-silver-maple-leaf-coin-random-year",
-          "verified_at": "2026-10-28T00:34:53Z"
+          "verified_at": "2026-10-28T13:05:26Z"
         },
         "apmex": {
-          "premium_usd": 11.69,
+          "premium_usd": 11.65,
           "availability": "in_stock",
           "url": "https://www.apmex.com/product/1090/1-oz-canadian-silver-maple-leaf-coin-bu-random-year",
-          "verified_at": "2026-10-28T00:34:53Z"
+          "verified_at": "2026-10-28T13:05:27Z"
         },
         "money_metals": {
-          "premium_usd": 10.42,
+          "premium_usd": 10.39,
           "availability": "in_stock",
           "url": "https://www.awin1.com/cread.php?awinmid=88985&awinaffid=3101466&clickref=silver_maple&ued=https%3A%2F%2Fwww.moneymetals.com%2Fcanadian-maple-leaf-king-charles-iii-1-troy-oz-silver-9999-pure%2F1018",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "monument": {
-          "premium_usd": 4.28,
+          "premium_usd": 4.32,
           "availability": "in_stock",
           "url": "https://monumentmetals.com/random-date-silver-maple-leaf.html",
-          "verified_at": "2026-10-28T00:34:57Z"
+          "verified_at": "2026-10-28T13:05:31Z"
         },
         "bgasc": {
-          "premium_usd": 9.01,
+          "premium_usd": 8.98,
           "availability": "in_stock",
           "url": "https://www.bgasc.com/product/1-oz-canadian-silver-maple-leaf-coin-random-year",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "hero": {
-          "premium_usd": 5.19,
+          "premium_usd": 5.36,
           "availability": "out_of_stock",
           "url": "https://www.herobullion.com/canadian-silver-maple-1-oz-coin/",
-          "verified_at": "2026-10-28T00:34:58Z"
+          "verified_at": "2026-10-28T13:05:32Z"
         },
         "bullionexchanges": {
           "premium_usd": null,
           "availability": "out_of_stock",
           "url": "https://bullionexchanges.com/1-oz-silver-canadian-maple-leaf-bu-random-year",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         }
       }
     },
     "oz1_bar": {
       "dealers": {
         "jm": {
-          "premium_usd": 10.52,
+          "premium_usd": 10.48,
           "availability": "in_stock",
           "url": "https://www.jmbullion.com/1-oz-silver-bar/",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "sd": {
-          "premium_usd": 5.04,
+          "premium_usd": 4.63,
           "availability": "in_stock",
           "url": "https://www.awin1.com/cread.php?awinmid=78598&awinaffid=3101466&ued=https%3A%2F%2Fsdbullion.com%2Fgeneric-1-oz-silver-bar-999-fine-silver",
-          "verified_at": "2026-10-28T00:35:00Z"
+          "verified_at": "2026-10-28T13:05:34Z"
         },
         "apmex": {
-          "premium_usd": 11.68,
+          "premium_usd": 11.63,
           "availability": "in_stock",
           "url": "https://www.apmex.com/product/27086/1-oz-silver-bar-apmex",
-          "verified_at": "2026-10-28T00:35:01Z"
+          "verified_at": "2026-10-28T13:05:34Z"
         },
         "money_metals": {
-          "premium_usd": 6.72,
+          "premium_usd": 6.69,
           "availability": "in_stock",
           "url": "https://www.awin1.com/cread.php?awinmid=88985&awinaffid=3101466&clickref=oz1_bar&ued=https%3A%2F%2Fwww.moneymetals.com%2F1-oz-generic-silver-bar%2F153",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "monument": {
-          "premium_usd": 2.98,
+          "premium_usd": 3.02,
           "availability": "in_stock",
           "url": "https://monumentmetals.com/secondary-market-1-oz-silver-bar-999-fine.html",
-          "verified_at": "2026-10-28T00:35:05Z"
+          "verified_at": "2026-10-28T13:05:38Z"
         },
         "bgasc": {
-          "premium_usd": 9.01,
+          "premium_usd": 8.98,
           "availability": "in_stock",
           "url": "https://www.bgasc.com/product/1-oz-silver-bars-secondary-market-random-assorted",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "hero": {
-          "premium_usd": 3.5,
+          "premium_usd": 3.67,
           "availability": "out_of_stock",
           "url": "https://www.herobullion.com/1-oz-silver-bar-any-mint-any-condition/",
-          "verified_at": "2026-10-28T00:35:07Z"
+          "verified_at": "2026-10-28T13:05:39Z"
         },
         "bullionexchanges": {
           "premium_usd": null,
           "availability": "out_of_stock",
           "url": "https://bullionexchanges.com/1-oz-generic-silver-bars-999-fine",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         }
       }
     },
     "gold_eagle": {
       "dealers": {
         "jm": {
-          "premium_usd": 225.02,
+          "premium_usd": 224.39,
           "availability": "in_stock",
           "url": "https://www.jmbullion.com/1-oz-american-gold-eagle/",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "sd": {
-          "premium_usd": 142.94,
+          "premium_usd": 134.23,
           "availability": "in_stock",
           "url": "https://www.awin1.com/cread.php?awinmid=78598&awinaffid=3101466&ued=https%3A%2F%2Fsdbullion.com%2F1-oz-american-gold-eagle-coin-random-year-bu",
-          "verified_at": "2026-10-28T00:35:08Z"
+          "verified_at": "2026-10-28T13:05:41Z"
         },
         "apmex": {
-          "premium_usd": 232.49,
+          "premium_usd": 232.29,
           "availability": "in_stock",
           "url": "https://www.apmex.com/product/1/1-oz-american-gold-eagle-coin-bu-random-year",
-          "verified_at": "2026-10-28T00:35:09Z"
+          "verified_at": "2026-10-28T13:05:42Z"
         },
         "money_metals": {
-          "premium_usd": 223.9,
+          "premium_usd": 223.5,
           "availability": "in_stock",
           "url": "https://www.awin1.com/cread.php?awinmid=88985&awinaffid=3101466&clickref=gold_eagle&ued=https%3A%2F%2Fwww.moneymetals.com%2F1-oz-american-gold-eagle-coin-type-2%2F954",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "monument": {
           "premium_usd": 69.89,
           "availability": "in_stock",
           "url": "https://monumentmetals.com/random-date-1oz-gold-eagle.html",
-          "verified_at": "2026-10-28T00:35:13Z"
+          "verified_at": "2026-10-28T13:05:46Z"
         },
         "bgasc": {
-          "premium_usd": 192.84,
+          "premium_usd": 191.86,
           "availability": "in_stock",
           "url": "https://www.bgasc.com/product/1-oz-american-gold-eagle-coin-ry",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "hero": {
-          "premium_usd": 154.99,
+          "premium_usd": 162.69,
           "availability": "in_stock",
           "url": "https://www.herobullion.com/american-gold-eagle-1-oz-coin/",
-          "verified_at": "2026-10-28T00:35:14Z"
+          "verified_at": "2026-10-28T13:05:47Z"
         },
         "bullionexchanges": {
-          "premium_usd": 74.89,
+          "premium_usd": 75.09,
           "availability": "in_stock",
           "url": "https://bullionexchanges.com/1-oz-american-eagle-gold-coin-random-year",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         }
       }
     },
     "gold_buffalo": {
       "dealers": {
         "jm": {
-          "premium_usd": 325.02,
+          "premium_usd": 324.39,
           "availability": "in_stock",
           "url": "https://www.jmbullion.com/1-oz-american-gold-buffalo-vy/",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "sd": {
-          "premium_usd": 247.8,
+          "premium_usd": 238.93,
           "availability": "in_stock",
           "url": "https://www.awin1.com/cread.php?awinmid=78598&awinaffid=3101466&ued=https%3A%2F%2Fsdbullion.com%2F1-oz-american-gold-buffalo-coin-random-year",
-          "verified_at": "2026-10-28T00:35:16Z"
+          "verified_at": "2026-10-28T13:05:49Z"
         },
         "apmex": {
-          "premium_usd": 332.49,
+          "premium_usd": 332.29,
           "availability": "in_stock",
           "url": "https://www.apmex.com/product/39598/1-oz-gold-buffalo-bu-random-year",
-          "verified_at": "2026-10-28T00:35:17Z"
+          "verified_at": "2026-10-28T13:05:49Z"
         },
         "money_metals": {
-          "premium_usd": 318.9,
+          "premium_usd": 318.5,
           "availability": "in_stock",
           "url": "https://www.awin1.com/cread.php?awinmid=88985&awinaffid=3101466&ued=https%3A%2F%2Fwww.moneymetals.com%2Famerican-buffalo-gold-coin%2F18",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "monument": {
           "premium_usd": 185.05,
           "availability": "in_stock",
           "url": "https://monumentmetals.com/random-date-1oz-gold-buffalo.html",
-          "verified_at": "2026-10-28T00:35:21Z"
+          "verified_at": "2026-10-28T13:05:53Z"
         },
         "bgasc": {
-          "premium_usd": 277.84,
+          "premium_usd": 276.86,
           "availability": "in_stock",
           "url": "https://www.bgasc.com/product/1-oz-american-gold-buffalo-coin-random-year",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "hero": {
-          "premium_usd": 74.36,
+          "premium_usd": 82.06,
           "availability": "out_of_stock",
           "url": "https://www.herobullion.com/american-gold-buffalo-1-oz-coin/",
-          "verified_at": "2026-10-28T00:35:22Z"
+          "verified_at": "2026-10-28T13:05:54Z"
         },
         "bullionexchanges": {
           "premium_usd": null,
           "availability": "out_of_stock",
           "url": "https://bullionexchanges.com/1-oz-gold-american-buffalo-random-year",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         }
       }
     },
     "gold_eagle_tenth": {
       "dealers": {
         "jm": {
-          "premium_usd": 89.99,
+          "premium_usd": 89.93,
           "availability": "in_stock",
           "url": "https://www.jmbullion.com/1-10-oz-american-gold-eagle/",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "sd": {
-          "premium_usd": 62.42,
+          "premium_usd": 61.41,
           "availability": "in_stock",
           "url": "https://www.awin1.com/cread.php?awinmid=78598&awinaffid=3101466&ued=https%3A%2F%2Fsdbullion.com%2F1-10-oz-gold-american-eagle-coin-random-dates",
-          "verified_at": "2026-10-28T00:35:24Z"
+          "verified_at": "2026-10-28T13:05:56Z"
         },
         "apmex": {
-          "premium_usd": 90.74,
+          "premium_usd": 90.72,
           "availability": "in_stock",
           "url": "https://www.apmex.com/product/4/1-10-oz-american-gold-eagle-coin-bu-random-year",
-          "verified_at": "2026-10-28T00:35:24Z"
+          "verified_at": "2026-10-28T13:05:56Z"
         },
         "money_metals": {
-          "premium_usd": 105.99,
+          "premium_usd": 105.95,
           "availability": "in_stock",
           "url": "https://www.awin1.com/cread.php?awinmid=88985&awinaffid=3101466&ued=https%3A%2F%2Fwww.moneymetals.com%2F2021-1-10-oz-american-gold-eagle-coin-type-2%2F606",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "monument": {
           "premium_usd": 59.83,
           "availability": "in_stock",
           "url": "https://monumentmetals.com/random-date-1-10oz-gold-eagle.html",
-          "verified_at": "2026-10-28T00:35:28Z"
+          "verified_at": "2026-10-28T13:06:00Z"
         },
         "bgasc": {
-          "premium_usd": 76.67,
+          "premium_usd": 76.58,
           "availability": "in_stock",
           "url": "https://www.bgasc.com/product/1-10-oz-american-gold-eagle-coin-random-year",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "hero": {
-          "premium_usd": 35.81,
+          "premium_usd": 36.58,
           "availability": "out_of_stock",
           "url": "https://www.herobullion.com/american-gold-eagle-1-10-oz-coin/",
-          "verified_at": "2026-10-28T00:35:29Z"
+          "verified_at": "2026-10-28T13:06:01Z"
         },
         "bullionexchanges": {
           "premium_usd": null,
           "availability": "out_of_stock",
           "url": "https://bullionexchanges.com/1-10-oz-gold-american-eagle-random-year",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         }
       }
     },
     "oz10_bar": {
       "dealers": {
         "jm": {
-          "premium_usd": 21.18,
+          "premium_usd": 20.82,
           "availability": "in_stock",
           "url": "https://www.jmbullion.com/10-oz-silver-bar/",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "sd": {
-          "premium_usd": 25.43,
+          "premium_usd": 21.28,
           "availability": "in_stock",
           "url": "https://www.awin1.com/cread.php?awinmid=78598&awinaffid=3101466&ued=https%3A%2F%2Fsdbullion.com%2Fgeneric-10-oz-silver-bullion-bars",
-          "verified_at": "2026-10-28T00:35:31Z"
+          "verified_at": "2026-10-28T13:06:03Z"
         },
         "apmex": {
-          "premium_usd": 46.78,
+          "premium_usd": 46.52,
           "availability": "in_stock",
           "url": "https://www.apmex.com/product/27087/10-oz-silver-bar-apmex",
-          "verified_at": "2026-10-28T00:35:31Z"
+          "verified_at": "2026-10-28T13:06:03Z"
         },
         "money_metals": {
-          "premium_usd": 53.18,
+          "premium_usd": 52.82,
           "availability": "in_stock",
           "url": "https://www.awin1.com/cread.php?awinmid=88985&awinaffid=3101466&ued=https%3A%2F%2Fwww.moneymetals.com%2F10-oz-generic-silver-bar%2F37",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "monument": {
-          "premium_usd": 23.78,
+          "premium_usd": 24.22,
           "availability": "in_stock",
           "url": "https://monumentmetals.com/10-oz-silver-bar-999-fine-random.html",
-          "verified_at": "2026-10-28T00:35:35Z"
+          "verified_at": "2026-10-28T13:06:07Z"
         },
         "bgasc": {
-          "premium_usd": 73.08,
+          "premium_usd": 72.82,
           "availability": "in_stock",
           "url": "https://www.bgasc.com/product/10-oz-silver-bars-secondary-market-random-assorted",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         },
         "hero": {
-          "premium_usd": 33.95,
+          "premium_usd": 35.69,
           "availability": "out_of_stock",
           "url": "https://www.herobullion.com/10-oz-silver-bar-any-mint-any-condition/",
-          "verified_at": "2026-10-28T00:35:37Z"
+          "verified_at": "2026-10-28T13:06:08Z"
         },
         "bullionexchanges": {
           "premium_usd": null,
           "availability": "out_of_stock",
           "url": "https://bullionexchanges.com/10-oz-generic-silver-bar",
-          "verified_at": "2026-10-28T00:36:40Z"
+          "verified_at": "2026-10-28T13:07:16Z"
         }
       }
     }
