@@ -91,7 +91,7 @@ silver_kangaroo,apmex,9.61,in_stock,https://www.apmex.com/product/176757/austral
 silver_kangaroo,monument,4.30,in_stock,https://monumentmetals.com/1-oz-australia-silver-kangaroo-bu-dates-of-our-choice.html,2026-11-07T20:11:43Z
 silver_kangaroo,bgasc,7.58,in_stock,https://www.bgasc.com/product/1-oz-australian-silver-kangaroo-coin-random-year,2026-11-07T20:18:33Z
 silver_kangaroo,hero,4.45,out_of_stock,https://www.herobullion.com/1-oz-australian-silver-kangaroo-coin/,2026-11-07T20:11:43Z
-silver_kangaroo,bullionexchanges,,out_of_stock,https://bullionexchanges.com/1-oz-australian-silver-kangaroo-perth-mint-bu-random-year,2026-11-07T20:18:33Z
+silver_kangaroo,bullionexchanges,,manual,https://bullionexchanges.com/1-oz-australian-silver-kangaroo-perth-mint-bu-random-year,2026-11-07T20:18:33Z
 silver_kangaroo,libertycoin,9.63,out_of_stock,https://libertycoin.com/product/australia-silver-kangaroo-1-oz-1-bu-random-date-x-au-kang-s1-bu/,2026-11-07T20:11:45Z
 silver_britannia,jm,10.48,in_stock,https://www.jmbullion.com/1-oz-british-silver-britannia-coin-vy/,2026-11-07T20:18:33Z
 silver_britannia,sd,6.48,in_stock,https://sdbullion.com/1-oz-britannia-silver-coin-random-year,2026-11-07T20:11:45Z
@@ -99,7 +99,7 @@ silver_britannia,apmex,10.61,in_stock,https://www.apmex.com/product/53532/great-
 silver_britannia,monument,4.84,in_stock,https://monumentmetals.com/doc-silver-britannia.html,2026-11-07T20:11:46Z
 silver_britannia,bgasc,9.08,in_stock,https://www.bgasc.com/product/1-oz-british-silver-britannia-coin-ry,2026-11-07T20:18:33Z
 silver_britannia,hero,4.67,out_of_stock,https://www.herobullion.com/1-oz-british-silver-britannia-coin/,2026-11-07T20:11:46Z
-silver_britannia,bullionexchanges,,out_of_stock,https://bullionexchanges.com/2027-great-britain-1-oz-silver-britannia-coin-bu,2026-11-07T20:18:33Z
+silver_britannia,bullionexchanges,,manual,https://bullionexchanges.com/2027-great-britain-1-oz-silver-britannia-coin-bu,2026-11-07T20:18:33Z
 silver_britannia,libertycoin,10.20,out_of_stock,https://libertycoin.com/product/great-britain-silver-britannia-2-1-oz-bu-random-date-x-gb-brit-s2-bu/,2026-11-07T20:11:47Z
 silver_philharmonic,jm,10.58,in_stock,https://www.jmbullion.com/austrian-silver-philharmonic-coin-vy/,2026-11-07T20:18:33Z
 silver_philharmonic,sd,6.98,in_stock,https://sdbullion.com/1-oz-austrian-silver-philharmonic-coin-random-year,2026-11-07T20:11:49Z
@@ -107,7 +107,7 @@ silver_philharmonic,apmex,10.61,in_stock,https://www.apmex.com/product/55369/aus
 silver_philharmonic,monument,4.54,in_stock,https://monumentmetals.com/random-date-1-oz-silver-philharmonic.html,2026-11-07T20:11:50Z
 silver_philharmonic,bgasc,9.08,in_stock,https://www.bgasc.com/product/1-oz-austrian-silver-philharmonic-coin-ry,2026-11-07T20:18:33Z
 silver_philharmonic,hero,4.61,out_of_stock,https://www.herobullion.com/1-oz-austrian-silver-philharmonic-coin/,2026-11-07T20:11:50Z
-silver_philharmonic,bullionexchanges,,out_of_stock,https://bullionexchanges.com/1-oz-austrian-silver-philharmonic-coin-bu-random-year,2026-11-07T20:18:33Z
+silver_philharmonic,bullionexchanges,,manual,https://bullionexchanges.com/1-oz-austrian-silver-philharmonic-coin-bu-random-year,2026-11-07T20:18:33Z
 silver_philharmonic,libertycoin,9.43,out_of_stock,https://libertycoin.com/product/austria-silver-philharmonic-1-oz-1-5-euro-bu-random-date-x-phil-s1-5-bu/,2026-11-07T20:11:51Z
 silver_round_generic,jm,9.58,in_stock,https://www.jmbullion.com/1-oz-silver-round/,2026-11-07T20:18:33Z
 silver_round_generic,sd,5.48,in_stock,https://sdbullion.com/1-oz-generic-silver-rounds,2026-11-07T20:11:52Z
@@ -115,7 +115,7 @@ silver_round_generic,apmex,8.61,in_stock,https://www.apmex.com/product/23/1-oz-s
 silver_round_generic,monument,3.30,in_stock,https://monumentmetals.com/1-oz-999-silver-round-secondary-market.html,2026-11-07T20:11:52Z
 silver_round_generic,bgasc,8.28,in_stock,https://www.bgasc.com/product/1-oz-silver-rounds-secondary-market-random-assorted,2026-11-07T20:18:33Z
 silver_round_generic,hero,3.68,in_stock,https://www.herobullion.com/1-oz-silver-round-any-mint-any-condition/,2026-11-07T20:11:52Z
-silver_round_generic,bullionexchanges,,out_of_stock,https://bullionexchanges.com/1-oz-silver-generic-rounds,2026-11-07T20:18:33Z
+silver_round_generic,bullionexchanges,,manual,https://bullionexchanges.com/1-oz-silver-generic-rounds,2026-11-07T20:18:33Z
 silver_round_generic,libertycoin,8.41,in_stock,https://libertycoin.com/product/1-oz-silver-round-random-brand-secondary-market-999-fine-silver-rnd-1oz-random/,2026-11-07T20:11:53Z
 ase,milesfranklin,8.32,in_stock,https://milesfranklin.com/product/1-ounce-american-silver-eagle/,2026-11-07T20:11:54Z
 silver_maple,milesfranklin,5.94,in_stock,https://milesfranklin.com/product/1-ounce-canadian-silver-maple-leaf/,2026-11-07T20:11:55Z
