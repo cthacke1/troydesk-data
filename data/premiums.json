@@ -1104,7 +1104,7 @@
         },
         "bullionexchanges": {
           "premium_usd": null,
-          "availability": "out_of_stock",
+          "availability": "manual",
           "url": "https://bullionexchanges.com/1-oz-australian-silver-kangaroo-perth-mint-bu-random-year",
           "verified_at": "2026-11-07T20:18:33Z"
         },
@@ -1192,7 +1192,7 @@
         },
         "bullionexchanges": {
           "premium_usd": null,
-          "availability": "out_of_stock",
+          "availability": "manual",
           "url": "https://bullionexchanges.com/2027-great-britain-1-oz-silver-britannia-coin-bu",
           "verified_at": "2026-11-07T20:18:33Z"
         },
@@ -1280,7 +1280,7 @@
         },
         "bullionexchanges": {
           "premium_usd": null,
-          "availability": "out_of_stock",
+          "availability": "manual",
           "url": "https://bullionexchanges.com/1-oz-austrian-silver-philharmonic-coin-bu-random-year",
           "verified_at": "2026-11-07T20:18:33Z"
         },
@@ -1368,7 +1368,7 @@
         },
         "bullionexchanges": {
           "premium_usd": null,
-          "availability": "out_of_stock",
+          "availability": "manual",
           "url": "https://bullionexchanges.com/1-oz-silver-generic-rounds",
           "verified_at": "2026-11-07T20:18:33Z"
         },
